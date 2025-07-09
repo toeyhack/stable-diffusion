@@ -11,3 +11,5 @@ VERSION="22.04.5 LTS (Jammy Jellyfish)"
 1. cd stable-diffusion-webui-docker
 2. docker compose build
 3. docker compose up -d
+# Load model
+1. Copy model to  /stable-diffusion-webui/models/Stable-diffusion
