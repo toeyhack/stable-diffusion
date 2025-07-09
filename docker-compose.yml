@@ -8,6 +8,7 @@ services:
       - "7860:7860"
     volumes:
       - ./models:/app/models
+      - ./extensions:/app/extensions
     environment:
       - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility
